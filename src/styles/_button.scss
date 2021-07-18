@@ -1,0 +1,22 @@
+.p-button {
+    
+    border: 1px solid #08FDD8;
+    font-family: 'Barlow', sans-serif;
+
+    display: inline-block;
+    padding: .7rem 1.5rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-image: linear-gradient(120deg,transparent 0%,transparent 50%,#08FDD8 50%);
+    // background-position: 0%;
+    background-size: 217%;
+    font-weight: bold;
+    color: #08FDD8;
+    transition: all .4s ease;
+    cursor: none;
+    &:hover {
+        color: black;
+        background-position: 100%;
+    }
+}

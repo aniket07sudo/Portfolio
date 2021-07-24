@@ -14,8 +14,7 @@ const Work = () => {
     return(
         <AutoWrap variants={PageAnimation} initial="hidden" exit="exit" animate="show">
             <div className="auto-wrap-container">
-                <div
-                 >
+                <div>
                     <li className="work-card">
                         <img src={Work1} alt="Alt" />
                     </li>

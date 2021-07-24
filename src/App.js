@@ -55,7 +55,7 @@ function App(props) {
   })
 
   return (
-    <div className="App" onMouseOver={HoverCursorExit} onMouseLeave={CursorNone}>
+    <div className="App">
       <div className="cursors" >
         <div className="cursor" style={{transform:`translate3d(${cursorXY.x}px,${cursorXY.y}px,0)`,display:color ? 'none' : '',visibility:mainCursor ? 'hidden':'visible'}} ></div>
         <div className="cursor tcursor" style={{transform:`translate3d(${TcursorXY.x - 6}px,${TcursorXY.y - 6}px,0) scale(${cursorScale})`,backgroundColor:color ? '#08FDD8' : ''}} ></div>

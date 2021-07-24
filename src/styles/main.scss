@@ -1,36 +1,38 @@
 * {
-    padding: 0;
-    margin: 0;
-    cursor: none!important;
-    box-sizing: border-box;
-    // background-color: black;
+  padding: 0;
+  margin: 0;
+  cursor: none !important;
+  box-sizing: border-box;
+  // background-color: black;
 }
 .main-bg {
-    background-color: #171717;
+  background-color: #171717;
 }
 ::selection {
-    background-color: #08FDD8;
-    color: black;
+  background-color: #08fdd8;
+  color: black;
+}
+::placeholder {
+  font-family: "Open Sans", sans-serif;
 }
 .cursor {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    pointer-events: none;
-    background-color: white;
-    z-index: 10000;
-    transition-duration: 50ms;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  pointer-events: none;
+  background-color: white;
+  z-index: 10000;
+  transition-duration: 50ms;
 }
 .tcursor {
-    width: 21px;
-    height: 21px;
-    background-color: #5D5D5D;
-    z-index: 9999;
+  width: 21px;
+  height: 21px;
+  background-color: #5d5d5d;
+  z-index: 9999;
 }
-
 
 @import "slider";
 @import "button";
@@ -38,6 +40,6 @@
 @import "pages";
 @import "animate";
 @import "input";
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");

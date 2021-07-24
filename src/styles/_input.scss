@@ -33,7 +33,7 @@
   transition: background-color 0.5s ease;
 }
 .valid {
-  background-color: green !important;
+  background-color: var(--color-primary) !important;
 }
 .clicked {
   background-color: #ffe268;

@@ -1,12 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 import {motion} from 'framer-motion';
-import {PageAnimation} from '../Animations/PageAnimation';
+import { PageAnimation } from '../Animations/PageAnimation';
+import Illus from './../Assets/HomeImage/ill.svg';
 
 const About = () => {
 
     return (
-      <AutoWrap variants={PageAnimation} initial="hidden" animate="show" exit="exit" > 
+      <AutoWrap variants={PageAnimation} initial="hidden" animate="show" exit="exit" >
+        {/* <img src={ Illus}/> */}
         <div className="auto-wrap-container">
             <div className="myself-head">Me, Myself & I</div>
             <p className="myself-txt">My name is Bernard Sydney. I am a Web Developer, and I'm very passionate and dedicated to my work.</p>
